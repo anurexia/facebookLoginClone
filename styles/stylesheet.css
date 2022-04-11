@@ -1,0 +1,160 @@
+* {
+     box-sizing: border-box;
+     margin:0;
+     padding: 0;
+     font-family: helvetica;
+     background-color:#F0F2F5;
+
+}
+
+a {
+     text-decoration: none;
+     color:black;
+}
+
+header{
+     width: 60%;
+     margin:auto;
+     display:flex;
+}
+
+.mainDisplay{
+     margin-top: 206px;
+}
+
+.logo {
+     margin-left: -30px;
+     height: 105px;
+}
+
+.motto {
+     font-size: 28px;
+     font-weight: 400;
+     display:block;
+}
+
+/* Login form */
+.loginForm {
+     margin-top: 131px;
+     margin-left: 152px;
+     width: 400px;
+     background-color:white;
+     border-radius: 15px;
+     height: 352px;
+}
+
+#userName {
+     vertical-align: center;
+     background-color: transparent;
+     border:1px solid #DDDFE2;
+     border-radius: 5px;
+     font-size: 17px;
+     height: 49px;
+     margin: 16px 15px 12px 15px;
+     padding: 17px;
+     width: 360px;
+}
+
+#passWord {
+     background-color: transparent;
+     border:1px solid #DDDFE2;
+     border-radius: 5px;
+     font-size: 17px;
+     height: 49px;
+     margin: 0 15px 17px 15px;
+     padding: 17px;
+     width: 360px;
+     vertical-align: center;
+}
+
+.login {
+     height: 47px;
+     width: 363px;
+     background-color: #166FE5;
+     border:1px solid transparent;
+     border-radius: 5px;
+     margin:0px 15px 18px 15px;
+     font-size: 20px;
+     font-weight: 700;
+     color:white;
+     text-align: center;
+     line-height: 48px;
+     cursor: pointer;
+}
+
+.forgot {
+     font-weight: 500;
+     font-size: 15px;
+     color:#1877f2;
+     margin-left: 138px;
+     line-height: 20px;
+
+     text-decoration: none;
+     background-color: transparent;
+}
+
+hr {
+     margin:25px 15px;
+     color:whitesmoke;
+}
+
+.newAccount {
+     height: 47px;
+     width: 191px;
+     margin-left: 101px;
+     margin-bottom: 23px;
+     border:1px solid transparent;
+     background-color:#36A420;
+     color:white;
+     font-size: 17px;
+     line-height: 48px;
+     font-weight: 700;
+     border-radius: 5px;
+     cursor: pointer;
+}
+
+.createPage {
+     font-weight: 600;
+     font-size: 15px;
+     line-height: 20px;
+     color: #1c1e21;
+     margin-top: 31px;
+     text-align: center;
+}
+
+.createPage a:hover {
+     border-bottom: 1px solid black;
+}
+
+#additionalText {
+     font-weight: 400;
+     font-size: 15px;
+     line-height: 20px;
+}
+
+
+
+
+/* Responsive */
+
+@media only screen and (max-width: 420px) {
+
+     .mainDisplay {
+          display: none;
+     }
+
+     .loginForm {
+          position: absolute;
+          right: 5px;
+          background-color: transparent;
+          bottom: 420px;
+     }
+
+     .createPage {
+          display:none;
+     }
+
+
+
+
+}
